@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+.flex-container{
+    display: flex;
+}
+/* contenuti header */
+header ul li{
+    display: inline-block;
+    border: 1px solid blue;
+    height: 20px;
+    width: 40px;
+
+}
+header nav div{
+    display: inline-block;
+}
+nav{
+    width: 100vw;
+    justify-content: space-between;
+    height: 100px;
+}
