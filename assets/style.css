@@ -33,6 +33,15 @@ nav{
 
 /* contenuti del main  */
 
+main{
+    justify-content: center;
+}
+/* section{ */
+    /* width: 80%; */
+    /* margin: 0 auto; */
+    /* justify-content: center; */
+/*      */
+/* } */
 .section-1{
     width: 100%;
     flex-direction: column;
@@ -58,5 +67,19 @@ section div div button{
     display: flex;
     justify-items: center;
     padding-top: 50px;
+}
 
+.section-2{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.card{
+    border: 1px solid lightgray;
+}
+.section-2 h2{
+    display: inline-block;
+    text-align: left;
 }
