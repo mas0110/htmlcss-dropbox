@@ -179,5 +179,30 @@ section div div button{
 }
 .section-3{
     justify-content: center;
-    margin-top: 50px;
+    padding-top: 100px;
+    gap: 50px
+;
+}
+.section-3 figure img{
+    width: 450px;
+    height: 400px;
+}
+.section-3 div{
+    width: 350px;
+    padding-top: 50px;
+}
+.text-section3{
+    flex-direction: column;
+    gap: 20px;
+}
+.grey-button{
+    border: 1px solid grey;
+    color: grey;
+    padding: 15px;
+    text-decoration: none;
+    width: 150px;
+}
+.grey-button:hover{
+    background-color: lightgrey;
+    color: white;
 }
