@@ -47,10 +47,12 @@ nav{
     height: 50px;
 }
 .blue-button{
-    background-color: #0543ff;
+    background-color:#0543ff;
     color: white;
     border-style: none;
-    padding: 5px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
 }
 .blue-button:hover{
     background-color: #53b7f7;
@@ -66,7 +68,9 @@ section:not(.section-1){
     width: 80%;
     margin: 0 auto;
 }
-
+#radio{
+    margin-block: 30px;
+}
 .section-1{
     background-color: #a5c5e1;
     padding-top: 50px;
@@ -89,7 +93,7 @@ main section h1{
 .w-30 a{
     color: black;
     font-size: xxx-large;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 .w-70{
     flex-basis: 70%;
@@ -107,7 +111,7 @@ section div div button{
     margin-block: 20px;
 }
 #jumbo{
-    width: 550px;
+    width: 600px;
     height: 350px;
    
 }
@@ -115,17 +119,63 @@ section div div button{
 .section-2{
     width: 100%;
     flex-direction: column;
-    align-items: center;
+    
     text-align: left;
-    margin-top: 50px;
+    padding-top: 100px;
 }
 
 .card{
     border: 1px solid lightgray;
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+    height: 800px;
+
 }
-.section-2 h2{
-    display: inline-block;
-    text-align: left;
+.card i{
+    margin-right: 10px;
+}
+.card-text{
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    gap: 25px;
+    padding-top: 20px;
+}
+.card-text hr{
+    width: 30%;
+}
+.tag-card{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+.card-text ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-block: 15px;
+}
+.last-card{
+    border: 1px solid lightgray;
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+    height: 300px;
+    
+}
+.last-card-text{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.card-details{
+    flex-direction: column;
+    gap: 20px;
+
+}
+.card-details p {
+    margin-top: 80px;
 }
 .section-3{
     justify-content: center;
