@@ -10,13 +10,37 @@
     display: inline-block;
 }
 /* contenuti header */
+header{
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding-inline: 20px;
+    background-color: white;
+    height: 50px;
+   
+    
+}
+header nav{
+    display: flex;
+    align-items: baseline;
+    height: 100%;
+}
 header ul li{
     display: inline-block;
     margin-inline: 10px;
+    align-items:center;
+    line-height: 50px;
 }
+header ul li:hover{
+    border-bottom: 2px solid black;
+}
+
 header nav div{
     display: inline-block;
-    padding-top: 10px;
+    
 }
 nav{
     justify-content: space-between;
@@ -28,32 +52,55 @@ nav{
     border-style: none;
     padding: 5px;
 }
-
+.blue-button:hover{
+    background-color: #53b7f7;
+}
 
 
 /* contenuti del main  */
 
 main{
-    justify-content: center;
+   margin-top: 30px;
 }
-/* section{ */
-    /* width: 80%; */
-    /* margin: 0 auto; */
-    /* justify-content: center; */
-/*      */
-/* } */
+section:not(.section-1){
+    width: 80%;
+    margin: 0 auto;
+}
+
 .section-1{
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
     background-color: #a5c5e1;
+    padding-top: 50px;
 }
+
 main section h1{
     font-size: xxx-large;
 }
-section div div{
-    width: 300px;
-
+.w-80{
+    width: 80%;
+    margin: 0 auto;
+}
+.w-30{
+    flex-basis: 30%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.w-30 a{
+    color: black;
+    font-size: xxx-large;
+    margin-top: 80px;
+}
+.w-70{
+    flex-basis: 70%;
+    display: inline-block;
+   
+}
+.prova{
+    margin-top: 30px;
+    position: relative;
+    bottom: -50px;
+    
 }
 section div div button{
     display: block;
@@ -62,11 +109,7 @@ section div div button{
 #jumbo{
     width: 550px;
     height: 350px;
-}
-.prova{
-    display: flex;
-    justify-items: center;
-    padding-top: 50px;
+   
 }
 
 .section-2{
@@ -74,6 +117,7 @@ section div div button{
     flex-direction: column;
     align-items: center;
     text-align: left;
+    margin-top: 50px;
 }
 
 .card{
@@ -82,4 +126,8 @@ section div div button{
 .section-2 h2{
     display: inline-block;
     text-align: left;
+}
+.section-3{
+    justify-content: center;
+    margin-top: 50px;
 }
