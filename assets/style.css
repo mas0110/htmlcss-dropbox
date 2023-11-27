@@ -191,6 +191,9 @@ section div div button{
     width: 350px;
     padding-top: 50px;
 }
+.last-card div i{
+    margin: 5px;
+}
 .text-section3{
     flex-direction: column;
     gap: 20px;
@@ -205,4 +208,49 @@ section div div button{
 .grey-button:hover{
     background-color: lightgrey;
     color: white;
+}
+
+.section-4 img{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.section-4 {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.section-4 h2{
+    padding-left: 100px;
+
+}
+.card-4{
+    width:300px ;
+    height: 400px;
+    margin:20px;
+    padding-top: 50px;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+}
+.section-5{
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 100px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+    
+}
+.box1{
+    background-color:#92cc89 ;
 }
