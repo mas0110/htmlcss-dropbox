@@ -3,13 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: 'Roboto', sans-serif;
+}
 .flex-container{
     display: flex;
 }
 .inline{
     display: inline-block;
 }
-/* contenuti header */
+
+
+/* ANCHOR contenuti header */
 header{
     align-items: center;
     position: fixed;
@@ -20,20 +25,21 @@ header{
     padding-inline: 20px;
     background-color: white;
     height: 50px;
-   
-    
 }
+
 header nav{
     display: flex;
     align-items: baseline;
     height: 100%;
 }
+
 header ul li{
     display: inline-block;
     margin-inline: 10px;
     align-items:center;
     line-height: 50px;
 }
+
 header ul li:hover{
     border-bottom: 2px solid black;
 }
@@ -42,10 +48,12 @@ header nav div{
     display: inline-block;
     
 }
+
 nav{
     justify-content: space-between;
     height: 50px;
 }
+
 .blue-button{
     background-color:#0543ff;
     color: white;
@@ -54,13 +62,15 @@ nav{
     text-decoration: none;
     text-align: center;
 }
+
 .blue-button:hover{
     background-color: #53b7f7;
 }
 
-
-/* contenuti del main  */
-
+  
+/*ANCHOR contenuti del main  */
+ 
+/* sezione 1 */
 main{
    margin-top: 30px;
 }
@@ -75,7 +85,6 @@ section:not(.section-1, .section-6, .section-7){
     background-color: #a5c5e1;
     padding-top: 50px;
 }
-
 main section h1{
     font-size: xxx-large;
 }
@@ -103,8 +112,7 @@ main section h1{
 .prova{
     margin-top: 30px;
     position: relative;
-    bottom: -50px;
-    
+    bottom: -50px;    
 }
 section div div button{
     display: block;
@@ -116,6 +124,7 @@ section div div button{
    
 }
 
+/* sezione 2 */
 .section-2{
     width: 100%;
     flex-direction: column;
@@ -130,7 +139,6 @@ section div div button{
     flex-direction: column;
     display: flex;
     height: 800px;
-
 }
 .card i{
     margin-right: 10px;
@@ -177,27 +185,34 @@ section div div button{
 .card-details p {
     margin-top: 80px;
 }
+
+.last-card div i{
+    margin: 5px;
+}
+
+
+/* sezione 3 */
 .section-3{
     justify-content: center;
     padding-top: 100px;
-    gap: 50px
-;
+    gap: 50px;
 }
+
 .section-3 figure img{
     width: 450px;
     height: 400px;
 }
+
 .section-3 div{
     width: 350px;
     padding-top: 50px;
 }
-.last-card div i{
-    margin: 5px;
-}
+
 .text-section3{
     flex-direction: column;
     gap: 20px;
 }
+
 .grey-button{
     border: 1px solid grey;
     color: grey;
@@ -210,6 +225,8 @@ section div div button{
     color: black;
 }
 
+
+/* sezione 4 */
 .section-4 img{
     width: 80%;
     margin: 0 auto;
@@ -240,21 +257,27 @@ section div div button{
     justify-content: center;
     
 }
+
+/* sezione5 */
 .section-5{
     flex-direction: column;
     gap: 30px;
     padding-block: 100px;
 }
 
+
+/* sezione 6 */
 .section-6 div{
     width: calc(100%/3);
    aspect-ratio: 1;
 }
+
 .partners-col-left,
 .partners-col-right{
     display: flex;
     flex-wrap: wrap;
 }
+
 .partners-col-left > div,
 .partners-col-right > div{
     flex-basis: calc(100%/2);
@@ -263,14 +286,17 @@ section div div button{
     align-items: center;
     justify-content: center;
 }
+
 .partners-col-left img{
     width: 150px;
     filter: invert(1);
 }
+
 .partners-col-right img{
     width: 150px;
     filter: invert(1);
 }
+
 .box1{
     background-color:#92cc89;
     border: 10px solid #c7e5c2;
@@ -296,21 +322,27 @@ section div div button{
 .box8{
     background-color:#ffd125 ;
 }
+
 .partners-col-center img{
     width: 150px;
 }
+
 .partners-col-center {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 20px ;
     background-color: #f2f2f2;
+    overflow: auto;
 }
 
 .partners-col-center hr{
     width: 30%;
 }
 
+
+
+/* sezione 7 */
 .try-container{
     display: flex;
     justify-content: space-evenly;
@@ -335,7 +367,7 @@ section div div button{
 
 
 
-
+/* sezione 8 */
 .faq-container{
    flex-direction: column;
    gap: 20px;
@@ -363,12 +395,12 @@ section div div button{
 
 
 
-
+/* ANCHOR contenuti del footer  */
 
 footer{
    background-color:#000 ;
    color: #fff;
-   padding-block: 50px;
+   padding-block: 100px;
 }
 .col-container{
     justify-content: ;

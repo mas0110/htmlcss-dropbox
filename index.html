@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
 
+    <!-- foglio css  -->
     <link rel="stylesheet" href="./assets/style.css">
-
+    
+    <!-- libreria font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- ANCHOR - barra di navigazione -->
     <header>
         <nav class="flex-container">
             <div class="flex-container">
@@ -32,6 +40,7 @@
         </nav>
     </header>
     <main>
+        <!-- ANCHOR sezione 1 con titolo descrizione e jumbo -->
         <section class="section-1 flex-container">
             <div class="w-80">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
@@ -45,12 +54,15 @@
                         <span>Annulla in qualsiasi momento</span>
                         <a href=""><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
+                    <!-- immagine -->
                     <div class="w-70">
                         <img id="jumbo" src="./assets/img/jumbo.png" alt="jumbo">
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- ANCHOR sezione 2 con i piani business -->
         <section class="flex-container section-2">
             <h2>trova il piano business che fa per te</h2>
             <div id="radio">
@@ -64,6 +76,8 @@
                 </div>
             </div>    
             <div class="flex-container cards">
+
+                <!-- card numero 1 -->
                 <div class="card">
                     <div class="tag-card"><i class="fa-solid fa-user"></i>singolo</div>
                     <div class="card-text flex-container">
@@ -82,6 +96,8 @@
                         </ul>
                     </div>
                 </div>
+
+                <!-- card numero 2 -->
                 <div class="card">
                     <div class="tag-card"><i class="fa-solid fa-users"></i>Team</div>
                     <div class="card-text flex-container">
@@ -103,6 +119,8 @@
                         </ul>
                     </div>
                 </div>
+
+                <!-- card numero 3 -->
                 <div class="card">
                     <div class="tag-card"><i class="fa-solid fa-building"></i>Azienda</div>
                     <div class="card-text flex-container">
@@ -124,6 +142,7 @@
                 </div>
             </div>
 
+            <!-- card numero 4 -->
             <div class="last-card flex-container">
                 <div class="tag-card"><i class="fa-solid fa-building"></i>Team</div>
                 <div class="flex-container last-card-text">
@@ -138,11 +157,14 @@
                 </div>
             </div>
         </section>
+
+
+        <!-- ANCHOR sezione 3 con foto parters -->
         <section class="flex-container section-3">
             <figure>
                 <img src="./assets/img/partner.png" alt="partners">
             </figure>
-            
+
             <div class="text-section3 flex-container">
                 <h2>Entra in contatto con un partner Dropbox</h2>
                 <p>
@@ -153,9 +175,14 @@
                 <a href="" class="grey-button">Trova un partner</a>
             </div>
         </section>
+
+
+        <!-- ANCHOR sezione 4 con card delle operazioni  -->
         <section class="section-4 flex-container">
             <h2>Esegui più operazioni con Dropbox Business</h2>
             <div class=" flex-container cards-container">
+
+                <!-- card 1 fila 1 -->
                 <div class="card-4">
                     <img src="./assets/img/business-feature-switching-tools.png" alt="switching-tools">
                     <h3>passa di meno da uno strumento all'altro</h3> 
@@ -165,6 +192,8 @@
                         file Microsoft Office e DropboxPaper direttamente da Dropbox. 
                     </p>
                 </div>
+
+                 <!-- card 2 fila 1 -->
                 <div class="card-4">
                     <img src="./assets/img/business-feature-send-files-it.png" alt="send-files">
                     <h3>
@@ -175,6 +204,8 @@
                        file Microsoft Office e DropboxPaper direttamente da Dropbox.
                     </p>
                 </div>
+
+                 <!-- card 3 fila 1 -->
                 <div class="card-4">
                     <img src="./assets/img/business-feature-coordinate-it.png" alt="coordinate">
                     <h3>passa di meno da uno strumento all'altro</h3>
@@ -184,6 +215,8 @@
                        file Microsoft Office e DropboxPaper direttamente da Dropbox. 
                     </p>
                 </div>
+
+                <!-- card 1 fila 2 -->
                 <div class="card-4">
                     <img src="./assets/img/business-feature-integrations-it.png" alt="integrations">
                     <h3>passa di meno da uno strumento all'altro</h3>
@@ -193,6 +226,7 @@
                         file Microsoft Office e DropboxPaper direttamente da Dropbox. 
                     </p>
                 </div>
+                <!-- card 3 fila 2 -->
                 <div class="card-4">
                     <img src="./assets/img/business-feature-multi-device.png" alt="multi-device">
                     <h3>
@@ -203,6 +237,7 @@
                        file Microsoft Office e DropboxPaper direttamente da Dropbox.
                     </p>
                 </div>
+                <!-- card 3 fila 2 -->
                 <div class="card-4">
                     <img src="./assets/img/business-feature-security.png" alt="security">
                     <h3>passa di meno da uno strumento all'altro</h3>
@@ -214,6 +249,9 @@
                 </div>
             </div>
         </section>
+
+
+        <!--ANCHOR  sezione 5 con info sui clienti  -->
         <section class="section-5 flex-container">
             <h2>
                 Più di 500.000 team utilizzano
@@ -221,13 +259,20 @@
             </h2>
             <a href="">Scopri di più sui nostri clienti</a>
         </section>
+
+
+        <!-- ANCHOR sezione 6 con le box dei partner  -->
         <section class="section-6 flex-container">
+
+            <!-- box a sinistra -->
             <div class="partners-col-left">
             <div class="box1"><img src="./assets/img/designit.svg" alt=""></div>
             <div class="box2"><img src="./assets/img/arizona_state_university.svg" alt=""></div>
             <div class="box3"><img src="./assets/img/university_of_florida.svg" alt=""></div>
             <div class="box4"><img src="./assets/img/topps.svg" alt=""></div>
             </div>
+
+            <!-- box centrale -->
             <div class="partners-col-center">
                 <figure>
                     <img src="./assets/img/designit.svg" alt="">
@@ -241,14 +286,19 @@
                 </blockquote>
                 <cite>Morten Thomsen, Global IT Lead</cite>
             </div>
+
+            <!-- box destra -->
             <div class="partners-col-right">
                 <div class="box5"><img src="./assets/img/world_bicycle_relief.svg" alt=""></div>
                 <div class="box6"><img src="./assets/img/hearst_corp.svg" alt=""></div>
                 <div class="box7"><img src="./assets/img/lonely_planet.svg" alt=""></div>
                 <div class="box8"><img src="./assets/img/clear_channel.svg" alt=""></div>
-
             </div>
         </section>
+
+
+
+        <!-- ANCHOR sezione 7 con il bottone prova -->
         <section class="section-7">
             <div class="try-container">
                 <div>
@@ -261,9 +311,14 @@
                 </div>
             </div>
         </section>
+
+
+
+        <!-- ANCHOR sezione 8 con le domande frequenti -->
         <section class="section-8">
             <h2>Domande frequenti</h2>
             <div class="faq-container flex-container">
+                <!-- domanda 1 -->
                 <hr>
                 <div class="question flex-container">
                    <p>Qual à la differenza era Pranhay Basiness Sandard e Dranhoy Basinoss Advanced?</p>
@@ -272,6 +327,8 @@
                 <div class="answer">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, deserunt.</p>
                 </div>
+
+                <!-- domanda 2 -->
                 <hr>
                 <div class="question flex-container">
                     <p>Qual i la differenza tra Dronhox Rusiness Standard e Dronbox Rusiness Advanced?</p>
@@ -280,6 +337,8 @@
                 <div class="answer">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, deserunt.
                 </div>
+
+                <!-- domanda 3 -->
                 <hr>
                 <div class="question flex-container">
                     <p>Qual i la differenza tra Dronbox Business Standard e Dropbox Business Advanced?</p>
@@ -292,6 +351,9 @@
             </div>
         </section>
     </main>
+
+
+    <!--ANCHOR  footer con i link  -->
     <footer>
         <div class="foot-container flex-container">
             <div class="col-container flex-container">
@@ -335,6 +397,5 @@
             <span><i class="fa-solid fa-earth-americas"></i>Italiano<i class="fa-solid fa-chevron-down"></i></span>
         </div>
     </footer>
-    <hr>
 </body>
 </html>
