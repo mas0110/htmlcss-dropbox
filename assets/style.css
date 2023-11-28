@@ -207,7 +207,7 @@ section div div button{
 }
 .grey-button:hover{
     background-color: lightgrey;
-    color: white;
+    color: black;
 }
 
 .section-4 img{
@@ -311,9 +311,6 @@ section div div button{
     width: 30%;
 }
 
-
-
-
 .try-container{
     display: flex;
     justify-content: space-evenly;
@@ -334,4 +331,70 @@ section div div button{
     background-color: #53b7f7;
     color: black;
     
+}
+
+
+
+
+.faq-container{
+   flex-direction: column;
+   gap: 20px;
+   margin-top: 50px;
+}
+.answer{
+    padding-left: 30px;
+    opacity: 0;
+}
+.question{
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.answer:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.section-8 h2{
+    margin-top: 100px;
+}
+.question i:hover{
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+footer{
+   background-color:#000 ;
+   color: #fff;
+   padding-block: 50px;
+}
+.col-container{
+    justify-content: ;
+    gap: 50px;
+}
+footer ul li{
+    list-style: none;
+    margin-block: 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #e6e1d4;
+}
+footer hr{
+    width: 10%;
+}
+.foot-container{
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+}
+footer span{
+    color: #e6e1d4;
+}
+footer span i{
+    color: #e6e1d4;
+    font-size: x-small;
 }
